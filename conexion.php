@@ -1,8 +1,8 @@
 <?php
-    $servidor = "servidores.guadalajara.gob.mx";
-    $usuario = "cmillanc";
-    $pass = "municipal2020.,";
-    $base = "nocserversgdlgobmx";
+    $servidor = "host";
+    $usuario = "user";
+    $pass = "password";
+    $base = "dataBase";
 
     //Crear conexion
     $conexion = new mysqli($servidor, $usuario, $pass, $base);
